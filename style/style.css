@@ -19,6 +19,7 @@ body{
     margin: 0 8.75rem 0 8.75rem;
 }
 
+
 /* nav section */
 .navbar{
     justify-content: space-between;
@@ -56,8 +57,39 @@ body{
     
 }
 .btn-1{
-    color: white;
+   color: white;
    background-color: rgb(254, 163, 1);
+   padding: 1rem 3.75rem 1rem 3.75rem;
+   border: none;
+   border-radius: 12px;
+}
+
+
+/* hero section  */
+.hero{
+    justify-content: space-between;
+}
+
+.left-hero{
+    margin: 7.6rem 0 7.6rem 0;
+}
+.left-hero h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.orange{
+    color: orange;
+}
+.blue{
+    color: skyblue;
+}
+
+.left-hero p{
+    margin: 24px 0 24px 0;
+}
+.btn-black{
+   color: white;
+   background-color: rgb(17, 17, 17);
    padding: 1rem 3.75rem 1rem 3.75rem;
    border: none;
    border-radius: 12px;
@@ -84,10 +116,7 @@ body{
 
 
 
-
-
-
-
+/* nave section  */
 @media screen and (max-width: 576px) {
     .margin-x{
         margin: 0 3rem 0 3rem;
@@ -110,5 +139,20 @@ body{
     .vr{
         border: 1px solid orange;
         margin-top: 12px;
+    }
+}
+
+
+/* hero section  */
+@media screen and (max-width: 992px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+    .left-hero{
+        text-align: center;
+        margin: 2rem 0 2rem 0;
+    }
+    .left-hero h1{
+        font-size: 2.5rem;
     }
 }
