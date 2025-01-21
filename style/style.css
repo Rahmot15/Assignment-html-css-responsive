@@ -95,6 +95,11 @@ body{
    border-radius: 12px;
 }
 
+/* marquee section  */
+.marquee{
+    background-color: rgb(194, 247, 230);
+}
+
 
 
 
