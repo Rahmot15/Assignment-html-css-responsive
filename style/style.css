@@ -154,13 +154,24 @@ body{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
     background: linear-gradient(to bottom,  rgb(238, 225, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
-
+.middle h3{
+    margin: 32px 0 33px 0;
+}
+.middle span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.middle p{
+    color: #8700FF;
+    margin-top: 34px;
+}
 .btn-carcle{
     border-radius: 50%;
     background-color: orange;
     padding: 10px;
     border: none;
     margin-right: 10px;
+    color: white;
     
 }
 .center{
@@ -234,6 +245,40 @@ body{
 }
 
 
+/* footer section */
+.footer-section{
+    background-color: #01ACFD;
+    padding: 123px 228px 174px 140px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.align{
+    align-items: center;
+    color: white;
+    margin-bottom: 35px;
+}
+.left-kids p{
+    color: white;
+    margin-bottom: 32px;
+}
+
+.middle-about h4{
+    color: white;
+    margin-bottom: 32px;
+}
+.items p{
+    color: white;
+    margin-top: 17px;
+}
+.right-keep h4{
+    color: white;
+    margin-bottom: 32px;
+}
+.img-logo{
+    gap: 10px;
+}
 
 
 
@@ -242,14 +287,7 @@ body{
 
 
 
-
-
-
-
-
-
-
-
+/* Responsive part  */
 
 
 /* nave section  */
@@ -319,5 +357,21 @@ body{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 5px;
+    }
+}
+
+
+/* footer section */
+@media screen and (max-width: 768px) {
+    .footer-section{
+        padding: 123px 28px 174px 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .footer{
+        flex-direction: column;
+    }
+    .right-keep h4{
+        margin-top: 31px;
     }
 }
