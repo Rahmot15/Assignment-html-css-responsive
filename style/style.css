@@ -169,6 +169,70 @@ body{
 }
 
 
+/* our stories section */
+.our-stories{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(254, 163, 1, 0.3)), url(../assets/bg.png);
+    
+}
+.our-stories h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+.img-gallery{
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 19px;
+    margin: 0 8.75rem 0 8.75rem;
+
+}
+.img-gallery img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.img-1{
+    border-radius: 16px ;
+    background-color: white;
+}
+.btn-2{
+    background-color: rgb(60, 216, 232);
+    color: white;
+    padding: 0.6rem;
+    border-radius: 48px;
+    border: none;
+    font-size: 1rem;
+    position: relative;
+    left: 2.4rem;
+    bottom: 1.5rem;
+}
+.img-1 h3{
+    padding: 33px 38px 0 38px;
+}
+.img-1 p{
+    padding: 47px 68px 0px 38px;
+}
+.img-all{
+    border-radius: 16px ;
+    background-color: white;
+}
+.btn-3{
+    background-color: rgb(149, 178, 38);
+    font-size: 0.8rem;
+}
+.btn-4{
+    background-color: rgb(93, 88, 240);
+    font-size: 0.8rem;
+}
+.h3-all{
+    padding: 19px 28px 29px 38px;
+    margin-bottom: 19px;
+}
+.t-center{
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 60px;
+}
+
 
 
 
@@ -191,7 +255,7 @@ body{
 /* nave section  */
 @media screen and (max-width: 576px) {
     .margin-x{
-        margin: 0 3rem 0 3rem;
+        margin: 0 2rem 0 2rem;
     }
 }
 @media screen and (max-width: 992px) {
@@ -237,5 +301,23 @@ body{
     }
     .center{
         display: none;
+    }
+}
+
+
+/* our stories section */
+@media screen and (max-width: 576px) {
+    .img-gallery{
+        margin: 0 0rem 0 0rem;
+    }
+}
+@media screen and (max-width: 992px) {
+    .img-1{
+        display: none;
+    }
+    .img-gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
     }
 }
