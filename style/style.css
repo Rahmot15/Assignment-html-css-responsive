@@ -348,6 +348,13 @@ body{
         padding: 19px 0px 29px 10px;
         margin-bottom: 19px;
     }
+    .btn-3 .btn-4 {
+        font-size: 0.5rem;
+        left: 1rem;
+    }
+    .btn-2{
+        left: 0.5rem;
+    }
 }
 @media screen and (max-width: 992px) {
     .img-1{
