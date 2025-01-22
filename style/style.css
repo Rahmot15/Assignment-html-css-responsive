@@ -29,10 +29,6 @@ body{
     align-items: center;
     gap: 0.6rem;
 }
-.middle-home{
-    
-    
-}
 .items{
     list-style: none;
     gap: 2rem;
@@ -98,8 +94,79 @@ body{
 /* marquee section  */
 .marquee{
     background-color: rgb(194, 247, 230);
+    padding: 10px 0 10px 0;
 }
 
+
+/* Standard Curriculum section */
+.standard-curriculam{
+    background-image: url(../assets/bg.png);
+}
+.standard-curriculam h1{
+    text-align: center;
+    margin: 60px 0 80px 0;
+}
+.cards{
+    justify-content: space-between;
+    gap: 28.3px;
+    margin-bottom: 80px;
+}
+.kinder{
+    text-align: center;
+    padding: 52px 40px;
+    border-radius: 19px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom,  rgb(222, 245, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.kinder h3{
+    margin: 32px 0 33px 0;
+}
+.kinder span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.kinder p{
+    color: #64C8FF;
+    margin-top: 34px;
+}
+.elementary{
+    text-align: center;
+    padding: 52px 40px;
+    border-radius: 19px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom,  rgb(255, 244, 220), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+.elementary h3{
+    margin: 32px 0 33px 0;
+}
+.elementary span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.elementary p{
+    color: #F0AA00;
+    margin-top: 34px;
+}
+.middle{
+    text-align: center;
+    padding: 52px 40px;
+    border-radius: 19px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(to bottom,  rgb(238, 225, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0));
+}
+
+.btn-carcle{
+    border-radius: 50%;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    margin-right: 10px;
+    
+}
+.center{
+    text-align: center;
+    
+}
 
 
 
@@ -159,5 +226,16 @@ body{
     }
     .left-hero h1{
         font-size: 2.5rem;
+    }
+}
+
+
+/* Standard Curriculum section */
+@media screen and (max-width: 992px) {
+    .cards{
+        flex-direction: column;
+    }
+    .center{
+        display: none;
     }
 }
